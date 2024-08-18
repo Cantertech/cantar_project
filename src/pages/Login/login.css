@@ -1,3 +1,74 @@
 .login{
     background: blue;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/back.jpeg) no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.login-form{
+    background: white;
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+}
+.login-form h2{
+    font-weight: 500;
+}
+.form-input{
+    padding: 8px 10px;
+    border: 1px solid #c9c9c9;
+    border-radius: 4px;
+    outline-color: #13B7E6;
+}
+.login-form button{
+    padding: 10px;
+    background-color: #13B7E6;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.login-form button:hover{
+    background-color: #077EFF;
+}
+.long-term{
+    display: flex;
+    gap: 5px;
+    font-size: 12px;
+    color: #808080;
+}
+.login-forgot{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.login-toggle{
+    font-size: 13xp;
+    color: #5c5c5c;
+}
+.login-toggle span{
+    font-weight: 500;
+    color: #13B7E6;
+    cursor: pointer;
+}
+
+.login-logo img{
+    width: 320px;
+}
+.login-logo p{
+    color: white;
+    font-size: 40px;
+    margin-left: 50px;
+    font-weight: 500;
+}
+.forgot-password{
+    color: #5c5c5c;
+    margin-left: 57px;
+    cursor: pointer;
 }

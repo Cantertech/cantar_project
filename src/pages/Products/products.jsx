@@ -23,17 +23,20 @@ const products = () => {
                 </ul>
             </div>
         </div>
-        <hr/>
         <div className="product-display">
             <div className="banner">
-                <div className="banner-container">
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
-                    <img src="" alt="" />
+                <div className="text-part-banner">
+                    <hr />
+                    <p>Louis Vuitton Customized Shirt</p>
+                    <hr />
+                </div>
+                <div className="img-part-banner">
+                    <p>Image goes here</p>
                 </div>
             </div>
-            <div className="first-line"></div>
+            <div className="first-line">
+                
+            </div>
         </div>
     </div>
   )

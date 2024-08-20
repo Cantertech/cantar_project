@@ -26,7 +26,12 @@ const products = () => {
         <hr/>
         <div className="product-display">
             <div className="banner">
-                
+                <div className="banner-container">
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                    <img src="" alt="" />
+                </div>
             </div>
             <div className="first-line"></div>
         </div>
